@@ -1,4 +1,5 @@
 const socket = io("https://instantporject-server-1.onrender.com");
+console.log("Connecting to Socket.io at: https://instantporject-server-1.onrender.com");
 
 let currentUser = null;
 let activePartnerId = null;
