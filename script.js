@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://instantporject-server-1.onrender.com");
 
 let currentUser = null;
 let activePartnerId = null;
